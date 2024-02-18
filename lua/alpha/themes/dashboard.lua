@@ -78,7 +78,7 @@ local buttons = {
         button("e", "  New file", "<cmd>ene <CR>"),
         button("f", "󰈞  Find file"),
         button("r", "󰊄  See file structure"),
-        button("<C-r>", "  Frecency/MRU"),
+        button("<C-r>", "  Frecency/MRU", '<cmd> :Neostree filesystem reveal left <CR>'),
         button("<C-f>", "󰈬  Find word"),
         button("b", "  Jump to bookmarks"),
         button("l", "  Open last session"),
