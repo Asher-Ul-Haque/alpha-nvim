@@ -4,7 +4,7 @@ local default_terminal = {
     type = "terminal",
     command = nil,
     width = 69,
-    height = 8,
+    height = 10,
     opts = {
         redraw = true,
         window_config = {},
@@ -76,15 +76,15 @@ local buttons = {
     type = "group",
     val = {
         button("e", "  New file", "<cmd>ene <CR>"),
-        button("SPC f f", "󰈞  Find file"),
-        button("SPC f h", "󰊄  Recently opened files"),
-        button("SPC f r", "  Frecency/MRU"),
-        button("SPC f g", "󰈬  Find word"),
-        button("SPC f m", "  Jump to bookmarks"),
-        button("SPC s l", "  Open last session"),
+        button("f", "󰈞  Find file"),
+        button("r", "󰊄  See file structure"),
+        button("<C-r>", "  Frecency/MRU"),
+        button("<C-f>", "󰈬  Find word"),
+        button("b", "  Jump to bookmarks"),
+        button("l", "  Open last session"),
     },
     opts = {
-        spacing = 1,
+        spacing = 2,
     },
 }
 
