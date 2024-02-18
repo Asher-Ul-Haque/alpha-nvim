@@ -77,7 +77,7 @@ local buttons = {
     val = {
         button("e", "  New file", "<cmd>ene <CR>"),
         button("f", "󰈞  Find file"),
-        button("r", "󰊄  See file structure"),
+        button("r", "󰊄  See file structure", "<cmd>Neotree filesystem reveal left <CR>"),
         button("<C-r>", "  Frecency/MRU", '<cmd> :Neostree filesystem reveal left <CR>'),
         button("<C-f>", "󰈬  Find word"),
         button("b", "  Jump to bookmarks"),
