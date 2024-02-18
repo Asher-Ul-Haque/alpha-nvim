@@ -79,8 +79,6 @@ local buttons = {
         button("f", "󰈞  Find file", "<cmd>Telescope find_files <CR>"),
         button("r", "󰊄  See file structure", "<cmd>Neotree filesystem reveal left <CR>"),
         button("g", "󰈬  Grep", "<cmd>Telescope live_grep <CR>"),
-        button("b", "  Jump to bookmarks"),
-        button("l", "  Open last session"),
     },
     opts = {
         spacing = 2,
